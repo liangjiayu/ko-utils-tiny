@@ -1,1 +1,5 @@
-console.log('bbb');
+function bbb() {
+  console.log('bbb');
+}
+
+export default bbb;

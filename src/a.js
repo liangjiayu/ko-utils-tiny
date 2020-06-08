@@ -1,4 +1,5 @@
-import _ from 'lodash'
-console.log('aaa+4');
+function aaa() {
+  console.log('aaa');
+}
 
-console.log(_.add);
+export default aaa;
