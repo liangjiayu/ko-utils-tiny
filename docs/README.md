@@ -14,6 +14,6 @@ import utils from 'utils'
 ### CDN
 
 ```html
-<script src="utils.js"></script> // window.JU
+<script src="utils.js"></script> // window.YU
 ```
 

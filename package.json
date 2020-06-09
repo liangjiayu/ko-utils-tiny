@@ -1,12 +1,10 @@
 {
-  "name": "utils",
+  "name": "y-utils",
   "version": "0.1.0",
-  "description": "utils",
-  "private": true,
-  "directories": {
-    "doc": "docs",
-    "test": "test"
-  },
+  "description": "y-utils",
+  "keywords": [
+    "utils"
+  ],
   "scripts": {
     "docs": "docsify serve docs",
     "dev": "webpack-dev-server --config webpack.dev.js",
@@ -14,20 +12,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/liangjiayu/utils.git"
+    "url": "git+https://github.com/liangjiayu/y-utils.git"
   },
   "author": "LiangJiaYu",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/liangjiayu/utils/issues"
+    "url": "https://github.com/liangjiayu/y-utils/issues"
   },
-  "homepage": "https://github.com/liangjiayu/utils#readme",
-  "keywords": [
-    "utils"
-  ],
-  "dependencies": {
-    "lodash": "^4.17.15"
-  },
+  "homepage": "https://github.com/liangjiayu/y-utils#readme",
+  "dependencies": {},
   "devDependencies": {
     "clean-webpack-plugin": "^3.0.0",
     "html-webpack-plugin": "^4.3.0",

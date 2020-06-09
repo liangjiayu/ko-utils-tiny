@@ -7,8 +7,8 @@ module.exports = {
   },
   output: {
     path: path.resolve(__dirname, './dist'),
-    filename: '[name].bundle.js',
-    library: 'JU',
+    filename: 'y-utils.js',
+    library: 'YU',
     libraryExport: 'default',
     libraryTarget: 'umd',
   },

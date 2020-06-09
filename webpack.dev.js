@@ -17,11 +17,6 @@ module.exports = merge(common, {
       filename: 'index.html',
       inject: 'head',
     }),
-    // new HtmlWebpackPlugin({
-    //   template: path.resolve(__dirname, './public/goods.html'),
-    //   filename: 'goods.html',
-    //   inject: 'head',
-    // }),
     new webpack.NamedModulesPlugin(),
     new webpack.HotModuleReplacementPlugin(),
   ],
