@@ -1,6 +1,6 @@
 ## 使用文档
 
-[文档](https://github.com/liangjiayu/y-utils)
+[文档](https://liangjiayu.github.io/y-utils)
 
 ## 快速开始
 
