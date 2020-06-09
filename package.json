@@ -1,7 +1,7 @@
 {
-  "name": "y-utils",
+  "name": "ko-utils",
   "version": "0.1.0",
-  "description": "y-utils",
+  "description": "ko-utils",
   "keywords": [
     "utils"
   ],
@@ -12,14 +12,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/liangjiayu/y-utils.git"
+    "url": "git+https://github.com/liangjiayu/ko-utils.git"
   },
   "author": "LiangJiaYu",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/liangjiayu/y-utils/issues"
+    "url": "https://github.com/liangjiayu/ko-utils/issues"
   },
-  "homepage": "https://github.com/liangjiayu/y-utils#readme",
+  "homepage": "https://github.com/liangjiayu/ko-utils#readme",
   "dependencies": {},
   "devDependencies": {
     "clean-webpack-plugin": "^3.0.0",

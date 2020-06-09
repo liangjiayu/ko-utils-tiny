@@ -7,7 +7,7 @@ module.exports = {
   },
   output: {
     path: path.resolve(__dirname, './dist'),
-    filename: 'y-utils.js',
+    filename: 'ko-utils.js',
     library: 'YU',
     libraryExport: 'default',
     libraryTarget: 'umd',
