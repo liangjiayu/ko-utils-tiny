@@ -1,26 +1,30 @@
 {
-  "name": "ko-utils-tiny",
-  "version": "0.1.1",
+  "name": "ko-utils-py",
+  "version": "0.1.2",
   "description": "ko-utils-tiny",
   "keywords": [
     "utils"
   ],
-  "main": "./dist/ko-utils.js",
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/ko-utils-tiny.js",
   "scripts": {
     "docs": "docsify serve docs",
     "dev": "webpack-dev-server --config webpack.dev.js",
-    "build": "webpack --config webpack.prod.js"
+    "build": "webpack --config webpack.prod.js",
+    "pub": "webpack --config webpack.prod.js && npm publish"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/liangjiayu/ko-utils.git"
+    "url": "git+https://github.com/liangjiayu/ko-utils-tiny.git"
   },
   "author": "LiangJiaYu",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/liangjiayu/ko-utils/issues"
+    "url": "https://github.com/liangjiayu/ko-utils-tiny/issues"
   },
-  "homepage": "https://github.com/liangjiayu/ko-utils#readme",
+  "homepage": "https://github.com/liangjiayu/ko-utils-tiny#readme",
   "dependencies": {},
   "devDependencies": {
     "clean-webpack-plugin": "^3.0.0",
