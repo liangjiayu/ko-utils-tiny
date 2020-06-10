@@ -1,10 +1,11 @@
 {
-  "name": "ko-utils",
-  "version": "0.1.0",
-  "description": "ko-utils",
+  "name": "ko-utils-tiny",
+  "version": "0.1.1",
+  "description": "ko-utils-tiny",
   "keywords": [
     "utils"
   ],
+  "main": "./dist/ko-utils.js",
   "scripts": {
     "docs": "docsify serve docs",
     "dev": "webpack-dev-server --config webpack.dev.js",
