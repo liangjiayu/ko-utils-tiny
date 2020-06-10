@@ -8,6 +8,8 @@ yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
 
+package
+
 # Editor directories and files
 .idea
 .vscode

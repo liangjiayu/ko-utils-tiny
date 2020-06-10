@@ -3,7 +3,7 @@ const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 
 module.exports = {
   entry: {
-    app: path.resolve(__dirname, './src/index.js'),
+    app: path.resolve(__dirname, './src/index.ts'),
   },
   output: {
     path: path.resolve(__dirname, './dist'),
@@ -12,5 +12,23 @@ module.exports = {
     libraryExport: 'default',
     libraryTarget: 'umd',
   },
-  plugins: [new CleanWebpackPlugin()],
+  resolve: {
+    extensions: ['.tsx', '.ts', '.js'],
+  },
+  module: {
+    rules: [
+      {
+        test: /\.tsx?$/,
+        use: [
+          {
+            loader: 'ts-loader',
+            options: {
+              configFile: path.resolve(__dirname, './tsconfig.json'),
+            },
+          },
+        ],
+      },
+    ],
+  },
+  plugins: [new CleanWebpackPlugin({})],
 };
