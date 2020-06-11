@@ -8,12 +8,19 @@ module.exports = merge(common, {
   mode: 'development',
   devtool: 'inline-source-map',
   devServer: {
-    contentBase: './dist',
+    contentBase: path.resolve(__dirname, '../examples'),
     hot: true,
+  },
+  output: {
+    path: path.resolve(__dirname, '../examples'),
+    filename: 'ko-utils-tiny.js',
+    library: 'KO',
+    libraryExport: 'default',
+    libraryTarget: 'umd',
   },
   plugins: [
     new HtmlWebpackPlugin({
-      template: path.resolve(__dirname, './public/index.html'),
+      template: path.resolve(__dirname, '../public/index.html'),
       filename: 'index.html',
       inject: 'head',
     }),

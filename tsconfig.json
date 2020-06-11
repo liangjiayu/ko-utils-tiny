@@ -2,18 +2,24 @@
   "compilerOptions": {
     "baseUrl": "./",
     "declaration": true, // 生成相应的 .d.ts文件
-    // "declarationDir": "./package", // 生成声明文件的输出路径
+    "declarationDir": "./lib", // 生成声明文件的输出路径
     "experimentalDecorators": true, // 启用实验性的ES装饰器
-    "lib": ["dom", "es2015"], // 编译过程中需要引入的库文件的列表
+    // "lib": ["dom", "es2015"], // 编译过程中需要引入的库文件的列表
     "module": "CommonJS", // 指定生成哪个模块系统代码
-    "outDir": "./package", // 重定向输出目录
+    "outDir": "./lib", // 重定向输出目录
     "sourceMap": false, // 生成相应的 .map文件
-    "target": "ES6", // 指定ECMAScript目标版本
+    // "target": "ES6", // 指定ECMAScript目标版本,
+    "types": [], // 要包含的类型声明文件名列表
   },
   "include": [
     "./src"
   ],
   "exclude": [
     "node_modules"
-  ]
+  ],
+  "typedocOptions": {
+    "inputFiles": ["./src"],
+    "mode": "modules",
+    "out": "./docs"
+  }
 }
