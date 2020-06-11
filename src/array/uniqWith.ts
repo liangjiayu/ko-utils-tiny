@@ -5,11 +5,12 @@
  * @param comparator 对比函数，传入两个参数 (value , otherValue)，return true为去重
  * @returns 返回新数组
  * @example
- *
+ * 
+ * ```ts
  * const objects = [{ 'x': 1, 'y': 2 }, { 'x': 2, 'y': 1 }, { 'x': 1, 'y': 2 }]
- *
  * uniqWith(objects, isEqual) => [{ 'x': 1, 'y': 2 }, { 'x': 2, 'y': 1 }]
- *
+ * ```
+ * 
  */
 function uniqWith(array: any[], comparator: Function): any[] {
   for (let i = 0; i < array.length; i++) {

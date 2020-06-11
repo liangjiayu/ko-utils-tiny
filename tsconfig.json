@@ -19,7 +19,7 @@
   ],
   "typedocOptions": {
     "inputFiles": ["./src"],
-    "mode": "modules",
+    "mode": "file",
     "out": "./docs"
   }
 }

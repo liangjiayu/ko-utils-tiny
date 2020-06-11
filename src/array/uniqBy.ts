@@ -7,9 +7,11 @@ import uniqWith from './uniqWith';
  * @param iteratee 迭代函数
  * @returns 返回新数组
  * @example
- *
+ * 
+ * ```ts
  * uniqBy([2.1, 1.2, 2.3], Math.floor) => [2.1, 1.2]
- *
+ * ```
+ * 
  */
 function uniqBy(array: any[], iteratee: Function | string): any[] {
   return uniqWith(array, (a, b) => {

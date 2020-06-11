@@ -64,22 +64,30 @@
 	<div class="row">
 		<div class="col-8 col-content">
 			<div class="tsd-panel tsd-typography">
-				<a href="#使用文档" id="使用文档" style="color: inherit; text-decoration: none;">
-					<h2>使用文档</h2>
+				<a href="#特性" id="特性" style="color: inherit; text-decoration: none;">
+					<h2>特性</h2>
 				</a>
-				<p><a href="https://liangjiayu.github.io/ko-utils-tiny">文档</a></p>
-				<a href="#快速开始" id="快速开始" style="color: inherit; text-decoration: none;">
-					<h2>快速开始</h2>
+				<ul>
+					<li><code>ts</code>项目，良好代码提示</li>
+					<li>支持<code>npm</code>，<code>cdn</code>引用，支持独立模块</li>
+				</ul>
+				<a href="#安装" id="安装" style="color: inherit; text-decoration: none;">
+					<h2>安装</h2>
 				</a>
 				<a href="#npm" id="npm" style="color: inherit; text-decoration: none;">
 					<h3>npm</h3>
 				</a>
-				<pre><code class="language-javascript">npm install ko-utils-tiny
-<span class="hljs-keyword">import</span> utils <span class="hljs-keyword">from</span> <span class="hljs-string">'ko-utils-tiny'</span></code></pre>
+				<pre><code><span class="hljs-built_in">npm</span> i ko-utils-tiny</code></pre><pre><code class="language-javascript"><span class="hljs-keyword">import</span> * <span class="hljs-keyword">as</span> ko <span class="hljs-keyword">from</span> <span class="hljs-string">'ko-utils-tiny'</span> <span class="hljs-comment">// 全部引用</span>
+
+<span class="hljs-keyword">import</span> { uniq } <span class="hljs-keyword">from</span> <span class="hljs-string">'ko-utils-tiny'</span> <span class="hljs-comment">// 引用对应的模块</span></code></pre>
 				<a href="#cdn" id="cdn" style="color: inherit; text-decoration: none;">
 					<h3>CDN</h3>
 				</a>
-				<pre><code class="language-html"><span class="hljs-tag">&lt;<span class="hljs-name">script</span> <span class="hljs-attr">src</span>=<span class="hljs-string">"ko-utils-tiny.js"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">script</span>&gt;</span> // window.YU</code></pre>
+				<pre><code class="language-html"><span class="hljs-tag">&lt;<span class="hljs-name">script</span> <span class="hljs-attr">src</span>=<span class="hljs-string">"ko-utils-tiny.js"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">script</span>&gt;</span>
+
+<span class="hljs-tag">&lt;<span class="hljs-name">script</span>&gt;</span><span class="javascript">
+  <span class="hljs-built_in">console</span>.log(KO)
+</span><span class="hljs-tag">&lt;/<span class="hljs-name">script</span>&gt;</span></code></pre>
 			</div>
 		</div>
 		<div class="col-4 col-menu menu-sticky-wrap menu-highlight">
@@ -88,22 +96,19 @@
 					<li class="globals  ">
 						<a href="globals.html"><em>Globals</em></a>
 					</li>
-					<li class=" tsd-kind-module">
-						<a href="modules/_array_uniq_.html">&quot;array/uniq&quot;</a>
-					</li>
-					<li class=" tsd-kind-module">
-						<a href="modules/_array_uniqby_.html">&quot;array/uniq<wbr>By&quot;</a>
-					</li>
-					<li class=" tsd-kind-module">
-						<a href="modules/_array_uniqwith_.html">&quot;array/uniq<wbr>With&quot;</a>
-					</li>
-					<li class=" tsd-kind-module">
-						<a href="modules/_index_.html">&quot;index&quot;</a>
-					</li>
 				</ul>
 			</nav>
 			<nav class="tsd-navigation secondary menu-sticky">
 				<ul class="before-current">
+					<li class=" tsd-kind-function">
+						<a href="globals.html#uniq" class="tsd-kind-icon">uniq</a>
+					</li>
+					<li class=" tsd-kind-function">
+						<a href="globals.html#uniqby" class="tsd-kind-icon">uniq<wbr>By</a>
+					</li>
+					<li class=" tsd-kind-function">
+						<a href="globals.html#uniqwith" class="tsd-kind-icon">uniq<wbr>With</a>
+					</li>
 				</ul>
 			</nav>
 		</div>
@@ -113,9 +118,6 @@
 	<div class="container">
 		<h2>Legend</h2>
 		<div class="tsd-legend-group">
-			<ul class="tsd-legend">
-				<li class="tsd-kind-function"><span class="tsd-kind-icon">Function</span></li>
-			</ul>
 		</div>
 	</div>
 </footer>

@@ -1,23 +1,35 @@
-## 使用文档
+## 特性
 
-[文档](https://liangjiayu.github.io/ko-utils-tiny)
+- `ts`项目，良好代码提示
+- 支持`npm`，`cdn`引用，支持独立模块
 
-## 快速开始
+
+
+## 安装
 
 ### npm
 
-```javascript
-npm install ko-utils-tiny
-import utils from 'ko-utils-tiny'
 ```
+npm i ko-utils-tiny
+```
+
+
+
+```javascript
+import * as ko from 'ko-utils-tiny' // 全部引用
+
+import { uniq } from 'ko-utils-tiny' // 引用对应的模块
+```
+
+
 
 ### CDN
 
 ```html
-<script src="ko-utils-tiny.js"></script> // window.YU
+<script src="ko-utils-tiny.js"></script>
+
+<script>
+  console.log(KO)
+</script>
 ```
-
-
-
-
 
