@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>&quot;index&quot; | ko-utils-tiny</title>
+	<title>&quot;array/uniqBy&quot; | ko-utils-tiny</title>
 	<meta name="description" content="Documentation for ko-utils-tiny">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="../assets/css/main.css">
@@ -56,10 +56,10 @@
 					<a href="../globals.html">Globals</a>
 				</li>
 				<li>
-					<a href="_index_.html">&quot;index&quot;</a>
+					<a href="_array_uniqby_.html">&quot;array/uniqBy&quot;</a>
 				</li>
 			</ul>
-			<h1>Module &quot;index&quot;</h1>
+			<h1>Module &quot;array/uniqBy&quot;</h1>
 		</div>
 	</div>
 </header>
@@ -71,32 +71,58 @@
 				<section class="tsd-panel tsd-index-panel">
 					<div class="tsd-index-content">
 						<section class="tsd-index-section ">
-							<h3>References</h3>
+							<h3>Functions</h3>
 							<ul class="tsd-index-list">
-								<li class="tsd-kind-reference tsd-parent-kind-module"><a href="_index_.html#uniq" class="tsd-kind-icon">uniq</a></li>
-								<li class="tsd-kind-reference tsd-parent-kind-module"><a href="_index_.html#uniqby" class="tsd-kind-icon">uniq<wbr>By</a></li>
-								<li class="tsd-kind-reference tsd-parent-kind-module"><a href="_index_.html#uniqwith" class="tsd-kind-icon">uniq<wbr>With</a></li>
+								<li class="tsd-kind-function tsd-parent-kind-module"><a href="_array_uniqby_.html#uniqby" class="tsd-kind-icon">uniq<wbr>By</a></li>
 							</ul>
 						</section>
 					</div>
 				</section>
 			</section>
 			<section class="tsd-panel-group tsd-member-group ">
-				<h2>References</h2>
-				<section class="tsd-panel tsd-member tsd-kind-reference tsd-parent-kind-module">
-					<a name="uniq" class="tsd-anchor"></a>
-					<h3>uniq</h3>
-					Re-exports <a href="_array_uniq_.html#uniq">uniq</a>
-				</section>
-				<section class="tsd-panel tsd-member tsd-kind-reference tsd-parent-kind-module">
+				<h2>Functions</h2>
+				<section class="tsd-panel tsd-member tsd-kind-function tsd-parent-kind-module">
 					<a name="uniqby" class="tsd-anchor"></a>
 					<h3>uniq<wbr>By</h3>
-					Re-exports <a href="_array_uniqby_.html#uniqby">uniqBy</a>
-				</section>
-				<section class="tsd-panel tsd-member tsd-kind-reference tsd-parent-kind-module">
-					<a name="uniqwith" class="tsd-anchor"></a>
-					<h3>uniq<wbr>With</h3>
-					Re-exports <a href="_array_uniqwith_.html#uniqwith">uniqWith</a>
+					<ul class="tsd-signatures tsd-kind-function tsd-parent-kind-module">
+						<li class="tsd-signature tsd-kind-icon">uniq<wbr>By<span class="tsd-signature-symbol">(</span>array<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">[]</span>, iteratee<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Function</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">[]</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in array/uniqBy.ts:14</li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>数组去重，每一个数组的元素调用 iteratee 产生唯一性计算标准</p>
+								</div>
+								<dl class="tsd-comment-tags">
+									<dt>example</dt>
+									<dd><p>uniqBy([2.1, 1.2, 2.3], Math.floor) =&gt; [2.1, 1.2]</p>
+									</dd>
+								</dl>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>array: <span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">[]</span></h5>
+									<div class="tsd-comment tsd-typography">
+										<p>要处理的数组</p>
+									</div>
+								</li>
+								<li>
+									<h5>iteratee: <span class="tsd-signature-type">Function</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">string</span></h5>
+									<div class="tsd-comment tsd-typography">
+										<p>迭代函数</p>
+									</div>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">[]</span></h4>
+							<p>返回新数组</p>
+						</li>
+					</ul>
 				</section>
 			</section>
 		</div>
@@ -109,27 +135,21 @@
 					<li class=" tsd-kind-module">
 						<a href="_array_uniq_.html">&quot;array/uniq&quot;</a>
 					</li>
-					<li class=" tsd-kind-module">
+					<li class="current tsd-kind-module">
 						<a href="_array_uniqby_.html">&quot;array/uniq<wbr>By&quot;</a>
 					</li>
 					<li class=" tsd-kind-module">
 						<a href="_array_uniqwith_.html">&quot;array/uniq<wbr>With&quot;</a>
 					</li>
-					<li class="current tsd-kind-module">
+					<li class=" tsd-kind-module">
 						<a href="_index_.html">&quot;index&quot;</a>
 					</li>
 				</ul>
 			</nav>
 			<nav class="tsd-navigation secondary menu-sticky">
 				<ul class="before-current">
-					<li class=" tsd-kind-reference tsd-parent-kind-module">
-						<a href="_index_.html#uniq" class="tsd-kind-icon">uniq</a>
-					</li>
-					<li class=" tsd-kind-reference tsd-parent-kind-module">
-						<a href="_index_.html#uniqby" class="tsd-kind-icon">uniq<wbr>By</a>
-					</li>
-					<li class=" tsd-kind-reference tsd-parent-kind-module">
-						<a href="_index_.html#uniqwith" class="tsd-kind-icon">uniq<wbr>With</a>
+					<li class=" tsd-kind-function tsd-parent-kind-module">
+						<a href="_array_uniqby_.html#uniqby" class="tsd-kind-icon">uniq<wbr>By</a>
 					</li>
 				</ul>
 			</nav>

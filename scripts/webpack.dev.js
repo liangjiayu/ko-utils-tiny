@@ -15,7 +15,7 @@ module.exports = merge(common, {
     path: path.resolve(__dirname, '../examples'),
     filename: 'ko-utils-tiny.js',
     library: 'KO',
-    libraryExport: 'default',
+    // libraryExport: 'default',
     libraryTarget: 'umd',
   },
   plugins: [

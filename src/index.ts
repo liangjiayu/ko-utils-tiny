@@ -17,23 +17,6 @@
 
 // export default modules;
 
-import aa from './aa';
-
-console.log(aa);
-
-/**
- * fafaf
- * @param aaa afaf
- * @example aaa=>aaa
- */
-export function aaa(aaa: string) {
-  console.log(aaa);
-}
-
-aaa('sss');
-
-// console.log(aa('aaa'));
-
-export default {
-  // aa,
-};
+export { default as uniq } from './array/uniq';
+export { default as uniqBy } from './array/uniqBy';
+export { default as uniqWith } from './array/uniqWith';

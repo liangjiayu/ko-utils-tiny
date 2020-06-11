@@ -9,7 +9,7 @@ module.exports = merge(common, {
     path: path.resolve(__dirname, '../dist'),
     filename: 'ko-utils-tiny.js',
     library: 'KO',
-    libraryExport: 'default',
+    // libraryExport: 'default',
     libraryTarget: 'umd',
   },
   plugins: [],
