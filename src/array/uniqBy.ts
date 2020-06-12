@@ -2,16 +2,14 @@ import uniqWith from './uniqWith';
 
 /**
  * 数组去重，每一个数组的元素调用 iteratee 产生唯一性计算标准
- *
  * @param array 要处理的数组
  * @param iteratee 迭代函数
  * @returns 返回新数组
- * @example
- * 
+ * @example ```ts```
  * ```ts
- * uniqBy([2.1, 1.2, 2.3], Math.floor) => [2.1, 1.2]
+ *  uniqBy([2.1, 1.2, 2.3], Math.floor) // => [2.1, 1.2]
+ *
  * ```
- * 
  */
 function uniqBy(array: any[], iteratee: Function | string): any[] {
   return uniqWith(array, (a, b) => {

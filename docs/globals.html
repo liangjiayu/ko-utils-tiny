@@ -90,7 +90,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/liangjiayu/ko-utils-tiny/blob/bd5fe8f/src/array/uniq.ts#L14">array/uniq.ts:14</a></li>
+									<li>Defined in <a href="https://github.com/liangjiayu/ko-utils-tiny/blob/1c42f1b/src/array/uniq.ts#L13">array/uniq.ts:13</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -99,7 +99,9 @@
 								</div>
 								<dl class="tsd-comment-tags">
 									<dt>example</dt>
-									<dd><pre><code class="language-ts">uniq([<span class="hljs-number">2</span>, <span class="hljs-number">1</span>, <span class="hljs-number">2</span>]) =&gt; [<span class="hljs-number">2</span>, <span class="hljs-number">1</span>]</code></pre>
+									<dd><p><code>ts</code></p>
+										<pre><code class="language-ts"> uniq([<span class="hljs-number">2</span>, <span class="hljs-number">1</span>, <span class="hljs-number">2</span>]) <span class="hljs-comment">// =&gt; [2, 1]</span>
+</code></pre>
 									</dd>
 								</dl>
 							</div>
@@ -127,7 +129,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/liangjiayu/ko-utils-tiny/blob/bd5fe8f/src/array/uniqBy.ts#L16">array/uniqBy.ts:16</a></li>
+									<li>Defined in <a href="https://github.com/liangjiayu/ko-utils-tiny/blob/1c42f1b/src/array/uniqBy.ts#L14">array/uniqBy.ts:14</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -136,7 +138,9 @@
 								</div>
 								<dl class="tsd-comment-tags">
 									<dt>example</dt>
-									<dd><pre><code class="language-ts">uniqBy([<span class="hljs-number">2.1</span>, <span class="hljs-number">1.2</span>, <span class="hljs-number">2.3</span>], <span class="hljs-built_in">Math</span>.floor) =&gt; [<span class="hljs-number">2.1</span>, <span class="hljs-number">1.2</span>]</code></pre>
+									<dd><p><code>ts</code></p>
+										<pre><code class="language-ts"> uniqBy([<span class="hljs-number">2.1</span>, <span class="hljs-number">1.2</span>, <span class="hljs-number">2.3</span>], <span class="hljs-built_in">Math</span>.floor) <span class="hljs-comment">// =&gt; [2.1, 1.2]</span>
+</code></pre>
 									</dd>
 								</dl>
 							</div>
@@ -170,7 +174,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/liangjiayu/ko-utils-tiny/blob/bd5fe8f/src/array/uniqWith.ts#L15">array/uniqWith.ts:15</a></li>
+									<li>Defined in <a href="https://github.com/liangjiayu/ko-utils-tiny/blob/1c42f1b/src/array/uniqWith.ts#L14">array/uniqWith.ts:14</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -179,8 +183,10 @@
 								</div>
 								<dl class="tsd-comment-tags">
 									<dt>example</dt>
-									<dd><pre><code class="language-ts"><span class="hljs-keyword">const</span> objects = [{ <span class="hljs-string">'x'</span>: <span class="hljs-number">1</span>, <span class="hljs-string">'y'</span>: <span class="hljs-number">2</span> }, { <span class="hljs-string">'x'</span>: <span class="hljs-number">2</span>, <span class="hljs-string">'y'</span>: <span class="hljs-number">1</span> }, { <span class="hljs-string">'x'</span>: <span class="hljs-number">1</span>, <span class="hljs-string">'y'</span>: <span class="hljs-number">2</span> }]
-uniqWith(objects, isEqual) =&gt; [{ <span class="hljs-string">'x'</span>: <span class="hljs-number">1</span>, <span class="hljs-string">'y'</span>: <span class="hljs-number">2</span> }, { <span class="hljs-string">'x'</span>: <span class="hljs-number">2</span>, <span class="hljs-string">'y'</span>: <span class="hljs-number">1</span> }]</code></pre>
+									<dd><p><code>ts</code></p>
+										<pre><code class="language-ts"> <span class="hljs-keyword">const</span> objects = [{ <span class="hljs-string">'x'</span>: <span class="hljs-number">1</span>, <span class="hljs-string">'y'</span>: <span class="hljs-number">2</span> }, { <span class="hljs-string">'x'</span>: <span class="hljs-number">2</span>, <span class="hljs-string">'y'</span>: <span class="hljs-number">1</span> }, { <span class="hljs-string">'x'</span>: <span class="hljs-number">1</span>, <span class="hljs-string">'y'</span>: <span class="hljs-number">2</span> }]
+ uniqWith(objects, isEqual) <span class="hljs-comment">// =&gt; [{ 'x': 1, 'y': 2 }, { 'x': 2, 'y': 1 }]</span>
+</code></pre>
 									</dd>
 								</dl>
 							</div>
